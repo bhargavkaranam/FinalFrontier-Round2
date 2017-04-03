@@ -1,0 +1,12 @@
+{
+  "name": "Man vs Machine",
+  "version": "0.1.0",
+  "main": "index.html",
+  "window": {
+    "height": 1024,
+    "width": 1500
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}

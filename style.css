@@ -1,0 +1,92 @@
+html,body
+{
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+}
+div
+{
+	box-sizing: border-box;
+}
+.container-fluid
+{
+	padding: 0 !important;
+}
+.team-add-container
+{
+	height: 100vh;
+	width: 100vw;
+	background: url(background.jpg);
+	background-position: center center;
+	background-size: cover;
+
+}
+.gameContainer
+{
+	height: 100vh;
+	width: 100vw;
+	display: none;
+}
+.team-add-form
+{
+	height: 180px;
+	width: 400px;
+	background:#E0E0E0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding: 40px 50px 0 50px;
+}
+.message
+{
+	text-align: center;
+}
+.leaderBoard
+{
+	/*background-color: blue;*/
+	height: 100vh;
+	background: #F5F5F5;	
+}
+.planetsHolder
+{
+	/*background: black;*/
+	height: 100vh;
+	padding: 80px 0 0 0;
+	/*background: #F5F5F5;	*/	
+}
+.currentTeam,.timestamp
+{
+	text-align: center;
+	color:#FFF;
+}
+.teamName
+{
+	
+}
+.team-names
+{
+	width: 150px;
+}
+.teams
+{
+	height: auto;
+}
+.buttons
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.leaderBoard input
+{
+	background: #F5F5F5;
+	border: none;
+}
+.planet
+{
+	cursor: pointer;	
+}
